@@ -1,0 +1,49 @@
+* {
+  font-family: Oxygen;
+  font-weight: normal;
+}
+span {
+  background-color: #ddd;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.computer {
+margin-bottom: 0px;
+}
+.choose {
+  display: inline-block;
+  border: 1px solid #bbb;
+  transition: all 0.3s linear;
+}
+.choose:focus {
+  border: 1px solid goldenrod;
+}
+.text {
+  margin: 10px 0px;
+  font-size: 16px;
+}
+input {
+  width: 200px;
+  font-size: 16px;
+}
+.action {
+  padding-left:100px;
+}
+button {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  margin-top:10px;
+  padding: 5px 15px;
+  transition: all 0.2s;
+}
+button:hover {
+  color: #fff;
+  border-color: transparent;
+  cursor: pointer;
+}
+button:last-of-type:hover {
+  background-color: #d63031;
+}
+button:first-of-type:hover {
+  background-color: #00b894;
+}
